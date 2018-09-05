@@ -1,3 +1,5 @@
+package Encrypt;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,7 +16,7 @@ public class FileInput {
     private String fileName;
 
     /**
-     * constructor to create a new instance of FileInput
+     * constructor to create a new instance of Encrypt.FileInput
      * @param fileName the file to be read
      * @throws FileNotFoundException when fileName cannot be located
      */

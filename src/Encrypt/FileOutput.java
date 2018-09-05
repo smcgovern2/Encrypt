@@ -1,3 +1,5 @@
+package Encrypt;
+
 import java.io.*;
 
 /**
@@ -11,7 +13,7 @@ public class FileOutput {
     private String fileName;
 
     /**
-     * Constructor to create a new instance of FileOutput
+     * Constructor to create a new instance of Encrypt.FileOutput
      * @param fileName The name of the file to be written to
      * @throws FileNotFoundException when fileName cannot be located
      */
